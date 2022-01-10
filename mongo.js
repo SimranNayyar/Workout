@@ -1,7 +1,7 @@
 
 
 const { MongoClient } = require("mongodb");
-const uri = "mongodb+srv://test_user:191074520@workoutlogger.uv4zb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const uri = "dummy uri";
 const client = new MongoClient(uri);
 client.connect()
 collection = client.db("WorkoutLogger").collection("workouts")
